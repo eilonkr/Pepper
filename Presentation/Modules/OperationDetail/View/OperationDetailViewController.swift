@@ -50,6 +50,7 @@ final class OperationDetailViewController: UIViewController {
     }
     
     private func configureView() {
+        title = "Operation"
         view.backgroundColor = .systemBackground
         view.addSubview(idLabel)
         idLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
