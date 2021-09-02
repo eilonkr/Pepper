@@ -23,7 +23,7 @@ final class OperationsViewController: UIViewController {
 
     var output: OperationsViewOutput
     private var viewModel: OperationsViewModel
-    private var tableViewManager: TableViewManagerProtocol
+    private var tableViewManager: SearchableTableViewManagerProtocol
     
     private lazy var searchController: UISearchController = {
         let searchController = UISearchController(searchResultsController: nil)
@@ -32,7 +32,7 @@ final class OperationsViewController: UIViewController {
         return searchController
     }()
     
-    init(viewModel: OperationsViewModel, tableViewManager: TableViewManagerProtocol, output: OperationsViewOutput) {
+    init(viewModel: OperationsViewModel, tableViewManager: SearchableTableViewManagerProtocol, output: OperationsViewOutput) {
         self.viewModel = viewModel
         self.tableViewManager = tableViewManager
         self.output = output

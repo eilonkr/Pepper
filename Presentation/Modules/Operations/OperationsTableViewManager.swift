@@ -8,7 +8,7 @@
 import UIKit
 import Combine
 
-final class OperationsTableViewManager: NSObject, TableViewManagerProtocol {
+final class OperationsTableViewManager: NSObject, SearchableTableViewManagerProtocol {
     unowned var tableView: UITableView?
     
     var dataSource: [[Operation]] = [] {
