@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "EKSwiftSuite",
+        "repositoryURL": "https://github.com/eilonkr/EKSwiftSuite.git",
+        "state": {
+          "branch": "main",
+          "revision": "6970b449f8829f318134f1341480ab425042fae4",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
